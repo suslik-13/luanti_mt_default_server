@@ -1,4 +1,4 @@
-# SHELTER techage - Minetest/Luanti Server
+# Minetest/Luanti Server
 
 ## Description
 
