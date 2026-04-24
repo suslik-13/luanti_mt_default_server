@@ -1,0 +1,14 @@
+services:
+  luanti:
+    image: ghcr.io/luanti-org/luanti:5.15.2
+    container_name: luanti_mt_server
+    command: >
+      ./bin/minetestserver --config /home/minetest/.minetest/minetest.conf --world /home/minetest/.minetest/worlds/world
+    ports:
+      - "30000:30000/udp"
+      - "30000:30000/tcp"
+    volumes:
+      - ./luanti_files:/home/minetest/.minetest/
+    environment:
+      - HOME=/home/minetest
+    restart: always
