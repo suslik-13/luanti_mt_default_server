@@ -82,6 +82,6 @@ docker compose restart
 
 ## Support
 
-If you have problems or questions, join our Discord server: https://discord.gg/JUFdNDWAcu
+If you have problems or questions, join our Discord server: https://discord.gg/j7ZHrgDTrn
 
 ---
